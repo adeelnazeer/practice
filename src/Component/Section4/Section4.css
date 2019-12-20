@@ -1,0 +1,130 @@
+.section4{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* height: 90vh; */
+    color: white;
+    background-image: linear-gradient(to bottom, #891e82, #ac0f6c, #c21e52, #cb3d37, #c85c1b);
+}
+.inner{
+    padding: 4%;
+}
+.Heading{
+    text-align: center;
+}
+.paragraph{
+    font-size: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;
+        width: 100%;
+        /* margin-left: 5%; */
+} 
+  .rowinner{
+      margin-top: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+ 
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #8b0f87;
+   
+    border-radius: 11%;
+    text-align: center;
+   
+    
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #451c5a;
+   
+    border-radius: 11%;
+    text-align: center;
+   
+    
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #1bab92;
+   
+    border-radius: 11%;
+    text-align: center;
+   
+    
+  }
+  .cardheader{
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+    padding-left: 8%;
+  }
+  .div-one {
+    width: 7%;
+    border-radius: 50%;
+    background-color: #ffc506;
+    height: 51%;
+}
+.div-two {
+  border-radius: 50%;
+  margin-left: 4%;
+  background-color: #ee651e;
+  width: 7%;
+  height: 51%;
+}
+.div-three {
+  width: 7%;
+  margin-left: 4%;
+  background-color: #fb0000;
+  border-radius: 50%;
+  height: 51%;
+}
+  .img{
+    height: 20vh;
+    /* width: 20vh; */
+    margin-top: 7%;
+    
+  
+  }
+  .image{
+        height: 46vh;
+        border-bottom-left-radius: 11%;
+        border-bottom-right-radius: 11%;
+    justify-content: center;
+    background-color: white;
+    margin-top: 7%;
+   
+  }
+  .cardfooter{
+      background-color: white;
+      margin-top: 6%;
+      color: black;
+  }

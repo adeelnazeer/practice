@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.abcx {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin-top: 10%;
+}
